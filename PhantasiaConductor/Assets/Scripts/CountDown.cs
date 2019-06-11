@@ -15,13 +15,6 @@ public class CountDown : MonoBehaviour
     public bool trig = false;
     public int cSwitch = 0;
 
-    private void Awake()
-    {
-        if (GameObject.FindObjectOfType<OVRPlayerController>().enabled)
-        {
-            darkCanvas = GameObject.FindObjectOfType<OVRPlayerController>().GetComponent<Canvas>();
-        }
-    }
     void OnEnable()
     {
         Invoke("Dim", 0);

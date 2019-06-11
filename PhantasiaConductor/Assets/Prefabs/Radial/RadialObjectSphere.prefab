@@ -133,8 +133,13 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   lifetime: 4
   fallSpeed: 15
+  twoHandMode: 1
   particleSystemPrefab: {fileID: 5938782830839788814, guid: 4b130538fa0852d4c9d90b2b8497338a,
     type: 3}
+  centerOfRotation: {x: 0, y: 0, z: 0}
+  startAngle: 0
+  angularSpeed: 0
   audioSource: {fileID: 0}
+  numObjectsInSeq: 0
   isLastObject: 0
   emissionIntensity: 1

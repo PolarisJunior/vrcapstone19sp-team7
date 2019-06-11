@@ -85,7 +85,7 @@ using UnityEngine.Events;
                 }
             }
 
-            if (PlayingLoop)
+            if (PlayingLoop && loopSource != null)
             {
                 loopSource.Play();
             }
