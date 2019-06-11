@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.phantasiaconductor.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\vrteam7\\Documents\\vrcapstone19sp-team7\\PhantasiaConductor\\actions.json",
+      "action_manifest_path": "C:\\Users\\vrteam7\\Desktop\\vrcapstone19sp-team7\\PhantasiaConductor\\actions.json",
       "strings": {
         "en_us": {
           "name": "PhantasiaConductor [Testing]"
