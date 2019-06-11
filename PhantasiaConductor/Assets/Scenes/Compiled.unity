@@ -3079,8 +3079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a6eaa763fd8af4da7e32fa4a6fe3a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centerPosition: {x: 0, y: 0, z: 0}
-  centerScale: {x: 0.4, y: 0.4, z: 0.4}
+  centerPosition: {x: 0, y: 0.5, z: 0}
+  centerScale: {x: 0.32, y: 0.32, z: 0.32}
   moveCenterDown: 0
   inCenter: 0
   radius: 0
@@ -10941,6 +10941,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4c90d3c4d98a33647872e06a6f654f9f,
         type: 3}
+    - target: {fileID: 4338585226280746553, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338585225181081103, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 668983522370777465, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873172684015278981, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873172684894172899, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873172685432436364, guid: fb2c3d4e8840ecf4c8db13be44046026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb2c3d4e8840ecf4c8db13be44046026, type: 3}
 --- !u!1 &1391058864

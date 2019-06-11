@@ -86,11 +86,6 @@ public class RadialObject : MonoBehaviour
     {
         if (collider.gameObject.tag == "RightNet" || collider.gameObject.tag == "LeftNet")
         {
-            if (audioSource != null)
-            {
-                audioSource.Play();
-            }
-
             if (!hasBeenCaught)
             {
                 if (twoHandMode)
@@ -101,6 +96,11 @@ public class RadialObject : MonoBehaviour
                     {
                         return;
                     }
+                }
+
+                if (audioSource != null)
+                {
+                    audioSource.Play();
                 }
 
                 // we caught it
