@@ -14,7 +14,7 @@ public class MoveDown : MonoBehaviour
     public IEnumerator MoveDownSteps(){
 		for (int i = 0; i < 100; i++) {
 	    	yield return new WaitForSeconds(.025f);
-	    	transform.position += new Vector3(0, -.004f, 0);
+	    	transform.position += new Vector3(0, tempScaleFactor * -.004f, 0);
     	}
     }
 

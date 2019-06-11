@@ -61,7 +61,7 @@ public class UnlockAction : MonoBehaviour
 	public void OnEnable(){
         GameObject center = GameObject.Find("/CenterArea");
         if (moveCenterDown) {
-        	 center.GetComponent<MoveDown>().Move(5);
+        	 center.GetComponent<MoveDown>().Move(8);
      	}
         transform.SetParent(center.transform);
 	}
